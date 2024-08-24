@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    display: block;
+    align-self: center;
+    text-align: center;
+
+    border: none;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 50px;
+    margin-left: 75px;
+}
+
+.buttons{
+    display: flex;
+   gap: 20px;
+   justify-content: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(97, 97, 97);
+    border: none;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: rgb(170, 170, 170);
+  }

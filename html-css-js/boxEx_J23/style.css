@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+#box{
+
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    align-self: center;
+    text-align: center;
+    line-height: 75px; 
+}
+
+.bUP{
+    display: flex;
+   justify-content: space-between;
+   gap: 250px;
+    margin-bottom: -50px;
+}
+
+#bRU{
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+
+.bD{
+    display: flex;
+   justify-content: space-between;
+   gap: 250px;
+   margin-top: -50px;
+}
+
+#bRD{
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+
+
+button{
+    color: black;
+    background-color: lightgrey;
+    border: solid black;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+}
